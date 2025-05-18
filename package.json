@@ -1,7 +1,6 @@
 {
-  "name": "react-nextjs-starter-kit",
+  "name": "react-jogo-da-velha",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "dev": "next dev"
   },
@@ -12,5 +11,7 @@
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "main": "index.js",
+  "description": ""
 }
