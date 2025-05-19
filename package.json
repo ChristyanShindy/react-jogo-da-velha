@@ -13,5 +13,13 @@
     "react-dom": "^17.0.2"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristyanShindy/react-jogo-da-velha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristyanShindy/react-jogo-da-velha/issues"
+  },
+  "homepage": "https://github.com/ChristyanShindy/react-jogo-da-velha#readme",
   "description": ""
 }
