@@ -38,7 +38,7 @@ function GameInfo({ currentPlayer, winner, onReset }) {
         onClick={onReset}
         disabled={!shouldEnableButton()}
       >
-        asads
+        Reinicar
       </Button>
     </div>
   )
