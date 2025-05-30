@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import GameOpition from '../gameOption/GameOption'
 import GameInfo from '../gameInfo/GameInfo'
+import Score from '../score/Score'
 import styles from './Game.module.css'
 
 
@@ -69,6 +70,7 @@ function Game () {
     },[winner])
 
   return (
+    <>
     <div className={styles.gameContent}>
       <div className={styles.game}>
         {
@@ -89,8 +91,10 @@ function Game () {
       onReset={handleReset}
       isDraw={draw}
       />
+      
     </div>
-    
+    <Score />
+    </>
   )
 }
 
